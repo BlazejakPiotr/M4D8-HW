@@ -1,10 +1,9 @@
-
-import './App.css'
-import NetflixNavbar from "./components/NetflixNavbar"
-import Header from './components/Header'
-import NetflixFooter from "./components/NetflixFooter"
-import Home from './components/Home';
-import {Container} from 'react-bootstrap'
+import "./App.css";
+import NetflixNavbar from "./components/NetflixNavbar";
+import Header from "./components/Header";
+import NetflixFooter from "./components/NetflixFooter";
+import Home from "./components/Home";
+import { Container } from "react-bootstrap";
 
 function App() {
   return (
@@ -15,7 +14,7 @@ function App() {
         <Home />
         <NetflixFooter />
       </Container>
-</>
+    </>
   );
 }
 
